@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz para programadores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -12,7 +13,7 @@
     </header>
     <main>
         <!-- Seção de introdução ao quiz -->
-        <section>
+        <section class="intro">
             <h2>Sobre esse quiz</h2>
             <p><strong>Esse quiz</strong> foi desenvolvido para testar seus conhecimentos em programação, como <em>linguagens de programação</em>, conceitos básicos e mais</p>
             <p>Você encontrará diferentes tipos de perguntas, incluindo múltipla escolha, texto e perguntas de data. Desafie-se com este quiz!</p>
@@ -34,7 +35,7 @@
         <section>  <!--Pergunta 2: Texto-->
             <h2>Pergunta 2: Na URL https://www.google.com, o trecho google.com é o _____ ?</h2>
             <form>
-                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui">
+                <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta aqui...">
             </form>
         </section>
         <section>  <!--Pergunta 3: Senha-->
@@ -150,14 +151,14 @@
                     <input type="email" id="email" name="email"><br>
                     <label for="comments">Comentários:</label><br>
                     <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Digite seus comentários aqui"></textarea><br>
-                    <input type="submit" value="Enviar">
+                    <button>Envie o feedback</button>
                     </fieldset>
                 </form>
             </section>
     </main>
     <footer>
-        <p>&copy; Quiz de programadores. Todos os direitos reservados.</p>
-        <p>Para conhecer outros quizzes, ,<a href="https://www.google.com/" target="_blank">clique aqui.</a></p>
+        <p class="paragrafo-footer">&copy; Quiz de programadores. Todos os direitos reservados.</p>
+        <p class="paragrafo-footer">Para conhecer outros quizzes, <a href="https://www.google.com/" target="_blank">clique aqui.</a></p>
     </footer>
 </body>
 </html>
